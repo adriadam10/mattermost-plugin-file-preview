@@ -1,0 +1,18 @@
+{
+    "id": "com.github.adriadam10.file-preview",
+    "name": "File Preview",
+    "description": "Previews CSV, ZIP and HTML attachments in the file preview window.",
+    "homepage_url": "https://github.com/adriadam10/mattermost-plugin-file-preview",
+    "support_url": "https://github.com/adriadam10/mattermost-plugin-file-preview/issues",
+    "version": "0.1.0",
+    "min_server_version": "12.0.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    }
+}
